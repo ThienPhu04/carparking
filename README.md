@@ -28,14 +28,23 @@ Dự án áp dụng **Clean Architecture kết hợp MVVM**, giúp:
 ## Cấu trúc thư mục
 
 src/
+
 ├── app/ # Entry point & Navigation
+
 ├── core/ # Constants, utils, hooks, types
+
 ├── domain/ # Business logic (Entity, UseCase)
+
 ├── data/ # API, Repository implementation
+
 ├── presentation/ # UI Screens + ViewModel (MVVM)
+
 ├── store/ # Global state management
+
 ├── services/ # Socket, Notification, Location
+
 ├── components/ # UI components dùng chung
+
 └── assets/ # Images, icons
 
 
